@@ -1,0 +1,16 @@
+.start {
+	width: 100%;
+	background-color: #353E48;
+	margin-left: -10px;	
+	display: flex;
+	justify-content: center;
+	position: relative;		
+}
+
+.start-group {
+	width: 1080px;
+	height: 525px;
+	position: relative;
+	display: flex;
+	box-sizing: border-box;
+}
