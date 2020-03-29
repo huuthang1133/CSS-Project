@@ -1,0 +1,112 @@
+.group-near {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left: -10px;
+	margin-top: 55px;
+}
+
+.group-near-inner {
+	width: 1080px;
+	padding-right: 20px;
+	box-sizing: border-box;
+}
+
+.group-near-you {
+	width: 100%;	
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+
+.group-near-you div {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+.group-near-you div .see-all {
+	color: #00A2C9;
+}
+
+.group-near-you .see {
+	font-size: 14px;
+}
+
+.group-near-you .near {
+	font-size: 20px;	
+}
+
+.group {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.group .gallary {
+	width: 24%;
+	height: 325px;
+	border-radius: 10px;
+	border: 1px solid #F8F9F9;
+	box-shadow: 0px 1px 5px #D9DCDB;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	transform: translate(0px,0px);	
+}
+
+.group .gallary:hover {
+	transform: translate(0px,-2px);
+	transition: all 0.2s;
+}
+
+.group .gallary .image {
+	width: 100%;
+	height: 140px;
+	background-size: contain;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.group .gal-1 .image {
+	background-image: url("https://secure.meetupstatic.com/photos/event/b/1/6/9/600_484125417.jpeg");
+}
+
+.group .gal-2 .image {
+	background-image: url("https://secure.meetupstatic.com/photos/event/b/e/0/2/600_469488642.jpeg");
+}
+
+.group .gal-3 .image {
+	background-image: url("https://secure.meetupstatic.com/photos/event/6/0/9/2/600_416904722.jpeg");
+}
+
+.group .gal-4 .image {
+	background-image: url("https://secure.meetupstatic.com/photos/event/d/c/9/600_478683529.jpeg");
+}
+
+.group .gallary .content {
+	margin: 25px 20px;
+}
+
+.group .gallary .content h2 {
+	font-size: 18px;
+	margin-top: 10px;
+	margin-bottom: 2px;
+	box-sizing: border-box;
+}
+
+.group .gallary .content .categories {
+	color: #757575;
+	font-size: 12px;
+}
+
+.group .gallary .content .up-event {
+	box-sizing: border-box;	
+}
+
+.group .gallary .content .number {
+	color: #757575;
+	position: absolute;
+	bottom: 15px;
+}
