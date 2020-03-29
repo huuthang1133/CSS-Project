@@ -1,0 +1,69 @@
+.get {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+
+.get .get-the-app {
+	width: 1080px;
+	height: 325px;
+	background-color: #FFF;
+	margin-left: -10px;
+	font-size: sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+.get .get-the-app .img img {
+	width: 228px;
+	height: 300px;
+	position: absolute;
+	bottom: 0px;
+}
+
+.get .get-the-app .item {
+	display: flex;
+	flex-direction: column;
+	margin-right: 255px;
+	margin-left: -200px;
+}
+
+.get .get-the-app .item .get-in {
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+
+.get .get-the-app .item .learn a{
+	text-decoration: none;
+	color: #00A2C7;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.get .get-the-app .item .learn a i {
+	margin-left: 15px;
+}
+
+.get .get-the-app .item .gallary {
+	display: flex;
+	margin-top: 50px;
+}
+
+.get .get-the-app .item .gallary .gal {
+	width: 160px;
+	height: 48px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.get .get-the-app .item .gallary .gal-1 {
+	background-image: url("https://www.meetup.com/mu_static/en-US/download_en.b85d892d.png");
+	margin-right: 22px;
+}
+
+.get .get-the-app .item .gallary .gal-2 {
+	background-image: url("https://www.meetup.com/mu_static/en-US/download_en.cf6dad40.png");
+}
